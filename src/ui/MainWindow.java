@@ -52,9 +52,10 @@ public class MainWindow {
             });
 
             // Click action
-            loginButton.addActionListener(e -> {
-                JOptionPane.showMessageDialog(frame, "Logging in to Spotify... (coming soon!)");
-            });
+            loginButton.addActionListener(e -> { frame.dispose(); // close current window
+                 LoginWindow.showLoginPage(); // open the new login window
+});
+
 
             // Add button to center panel
             centerPanel.add(loginButton);

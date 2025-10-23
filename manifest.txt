@@ -1,0 +1,3 @@
+Main-Class: ui.MainWindow
+Class-Path: lib/sqlite-jdbc-3.50.3.0.jar
+
